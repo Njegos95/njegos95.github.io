@@ -1,0 +1,277 @@
+*{
+	margin:0;
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 115px; 
+    background-color: white; 
+	
+
+}
+
+.logo {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin-right: 100px;
+    margin-top: 15px;    
+}
+.navigation-bar > a {
+    display: inline-block;
+    margin-right: 70px;
+	margin-top: 50px;
+    height: 70px;       
+     float:right;	
+	 color:  silver;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.futer{
+    width: 100%;
+    height: 80px;
+    background: silver;
+}
+.futer img{
+    width: 50px;
+    height: auto;
+    float: right;
+    margin: 10px 300px 0 20px;
+}
+
+#dugme {
+	position:absolute;
+	top:48%;
+    left:12%;
+	font-size:20px;
+	background-color:#0099ff;
+	border:none;
+	border-radius:5px;
+	padding:10px 22px;
+	font-family:Sans-serif;
+	
+}
+#dugme{
+	text-decoration:none;
+	color:white;
+}
+#dugme:hover{
+	background-color:white;
+	color:black;
+}
+.slika{
+    width: 100%;
+    height: 100%;
+    background-image: url("slike/qqq.jpg");
+    background-size: 100% 100%;
+}
+.slika1{
+    width: 100%;
+    height: 100%;
+    background-image: url("slike/nnn.jpg");
+    background-size: 100% 100%;
+}
+.slika3{
+    width: 100%;
+    height: 100%;
+    background-image: url("slike/bbb.jpg");
+    background-size: 100% 100%;
+}
+.pozadinaNovosti{
+	
+	height:100%;
+	width:100%;
+	background-size:100% 100%;
+	overflow:auto;
+}
+.pozadinaNovosti table{
+
+	width:70%;
+	margin-left:15%;
+	
+}
+.pozadinaNovosti th{
+	padding:3%;
+	text-align:center;
+	font-size:28px;
+}
+.pozadinaNovosti td{
+	text-align:center;
+	padding:2%;
+}
+.pozadinaNovosti p{
+	text-align:justify;
+}
+.tabela1 td{
+	padding:0;
+	text-align:left;
+}
+	
+#dugme1 {
+	position:absolute;
+	top:30%;
+    left:9%;
+	font-size:30px;
+	background-color:silver;
+	border:none;
+	border-radius:5px;
+	padding:10px 22px;
+	font-family:Sans-serif;
+	
+}
+#dugme1{
+	text-decoration:none;
+	color:white;
+}
+.sadrzaj{
+	background:silver;
+	height: 800px;
+	width:1200px;
+	border-radius:10px;
+	position:relative;
+	top:10%;
+	left:10%;
+}
+.Kontakt {
+	padding:2%;
+	position:relative;
+	top:30%;
+	left:5%;
+	
+}
+.Kontakt th{
+	text-align:left;
+	font-size:30px;
+	padding:2%;
+}
+.Kontakt td{
+	text-align:left;
+	font-size:26px;
+	padding:2%;
+}
+.sadrzaj input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin:  8 px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size:16;
+}
+.sadrzaj input[type=mail]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	font-size:16;
+}
+.sadrzaj input[type=submit] {
+	position:absolute;
+	top:60%;
+	left:5%;
+	font-size:20;
+    width: 90%;
+    background-color: #00aaff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.sadrzaj input[type=submit]:hover {
+    background-color: #;
+}
+.sadrzaj input[type=textarea]{
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;	
+}
+.sadrzaj textarea{
+	padding: 12px 20px;
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.forme{
+	margin-left: 30%;
+	margin-top: 50px;
+	border: 1px solid black;
+	background-color: white;
+	width: 35%;
+	height: 500%;
+	text-align: center;
+
+}
+.text{
+	height:30px;
+	width: 200px;
+	margin-top: 5%;
+	text-align: center;
+}
+select{
+	font-size: 16px;
+	width: 40%;
+	padding: 7px;
+	margin: 2%;
+
+}
+textarea{
+	font-size: 16px;
+	margin-top: 3%;
+}
+#button1{
+    background-color: #0f0f0a;
+    border: 4px solid black;
+	border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+#showcase{
+  min-height:-300px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:0px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:30px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:center;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
