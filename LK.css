@@ -66,11 +66,10 @@
     background-image: url("slike/qqq.jpg");
     background-size: 100%;
 }
-.slika1{
+.slika1 img{
     width: 100%;
     height: 100%;
-    background-image: url("slike/nnn.jpg");
-    background-size: 100%;
+    background-size: cover;
 }
 .slika3{
     width: 100%;
