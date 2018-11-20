@@ -64,25 +64,25 @@
     width: 100%;
     height: 100%;
     background-image: url("slike/qqq.jpg");
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 .slika1{
     width: 100%;
     height: 100%;
     background-image: url("slike/nnn.jpg");
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 .slika3{
     width: 100%;
     height: 100%;
     background-image: url("slike/bbb.jpg");
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 .pozadinaNovosti{
 	
 	height:100%;
 	width:100%;
-	background-size:100% 100%;
+	background-size:100%;
 	overflow:auto;
 }
 .pozadinaNovosti table{
